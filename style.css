@@ -736,15 +736,14 @@ button{
     color: var(--main-color);
 }
 
-.contact-form{
-    width: 50%;
+.contact-form,.contact-info{
+    width: 70%;
     padding: 0 15px;
-
+    margin: auto;
 }
 .contact-info{
-    padding-left: 400px;
-    align-items: center;
-    justify-content: center;
+   padding-top: 20px;
+    display: inline;
 }
 .contact-form .input-group{
     width: 100%;
